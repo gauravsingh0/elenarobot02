@@ -358,7 +358,7 @@ def amelia_about_callback(update, context):
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_bot licensed under the GNU General Public License v3.0_
                  \nHere is the [💾Repository](https://github.com/gauravsingh0/elenarobot02).
-                 \n\nIf you have any question about Elena, let us know at @yone_support_official .""",
+                 \n\nIf you have any question about Elena, let us know at  .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
