@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/721cc027626413264e2d2.jpg">
+  <img src="https://telegra.ph/file/a8330e9b50b1cb3b84cca.jpg">
 </p>
 
 # Elena Group BoT
