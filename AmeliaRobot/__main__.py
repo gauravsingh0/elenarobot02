@@ -74,19 +74,19 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴇʟʟᴏ [🤗](https://telegra.ph/file/a8330e9b50b1cb3b84cca.jpg), ɪᴍ Elena ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ.
+ʜᴇʟʟᴏ [🤗](https://telegra.ph/file/9af170bfe9500ef58de99.jpg), ɪᴍ AngeloX ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ.
 `ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ` /help   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD ELENA TO UR GROUPS ➕️", url="t.me/Miss_Elena_Robot?startgroup=true"),
+            text="❤ ADD AngeloX TO UR GROUPS ❤", url="t.me/AngeloX_Robot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ABOUT", callback_data="amelia_"),
         InlineKeyboardButton(
-            text="SUPPORT", url=f"https://t.me/yone_support_official"
+            text="SUPPORT", url=f"https://t.me/Empire_Support21"
         ),
     ],
     [
@@ -96,13 +96,13 @@ buttons = [
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` Elena [🙋‍♀️](https://telegra.ph/file/a8330e9b50b1cb3b84cca.jpg)
+`ʜɪ.. ɪ'ᴍ` AngeloX [🙋‍♀️](https://telegra.ph/file/9af170bfe9500ef58de99.jpg)
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
-amelia_IMG = "https://telegra.ph/file/a8330e9b50b1cb3b84cca.jpg"
+amelia_IMG = "https://telegra.ph/file/9af170bfe9500ef58de99.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @Black_heart_hacker_xon\
+ You can support the project via [Paypal](#) or by contacting @Rupayan_Iz_Here\
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -349,7 +349,7 @@ def amelia_about_callback(update, context):
     query = update.callback_query
     if query.data == "amelia_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Elena*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *AngeloX*, a powerful group management bot built by @Rupayan_Iz_Here to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -357,8 +357,8 @@ def amelia_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_bot licensed under the GNU General Public License v3.0_
-                 \nHere is the [💾Repository](https://github.com/gauravsingh0/elenarobot02).
-                 \n\nIf you have any question about Elena, let us know at  .""",
+                 \nHere is the [💾Repository](https://t.me/Empire_Support21).
+                 \n\nIf you have any question about AngeloX, let us know at  .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -384,8 +384,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Elena*
-                 \nHere is the [Source Code](https://github.com/gauravsingh0/elenarobot02) .""",
+            text=""" Hi..🤗 I'm *AngeloX*
+                 \nHere is the [Source Code](https://t.me/Empire_Support21) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -680,7 +680,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm alive 💃")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm alive 💃 for my love ❤")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
