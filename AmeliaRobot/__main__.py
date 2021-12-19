@@ -86,7 +86,7 @@ buttons = [
     [
         InlineKeyboardButton(text="ABOUT", callback_data="amelia_"),
         InlineKeyboardButton(
-            text="SUPPORT", url=f"https://t.me/yone_support_official"
+            text="SUPPORT", url=f"https://t.me/elena_support_group"
         ),
     ],
     [
@@ -102,7 +102,7 @@ HELP_STRINGS = """
 amelia_IMG = "https://telegra.ph/file/a8330e9b50b1cb3b84cca.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @Black_heart_hacker_xon\
+ You can support the project via [Paypal](#) or by contacting @gauravsingh003\
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
